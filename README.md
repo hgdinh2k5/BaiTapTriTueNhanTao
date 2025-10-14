@@ -103,8 +103,20 @@ DFS, BFS, UCS, DLS, IDS.
       2.3.3 So sánh hiệu suất
   
     - Biểu đồ thời gian thực thi
+
+<img width="1067" height="625" alt="Screenshot 2025-10-14 170608" src="https://github.com/user-attachments/assets/0026309d-910b-441a-abac-e5d08231b024" />
+
+    
     - Biểu đò số bước tìm kiếm
+
+<img width="976" height="630" alt="Screenshot 2025-10-14 170632" src="https://github.com/user-attachments/assets/04a1caf6-5e2c-48f8-90a6-dd055d0871ac" />
+
+
     - Biểu đồ tổng hợp hiệu quả: 1/(Step x Time)
+
+<img width="1000" height="632" alt="Screenshot 2025-10-14 170705" src="https://github.com/user-attachments/assets/4b69fbd4-d36d-4232-b205-da7c9b12be37" />
+
+  
       
   2.4 Nhóm thuật toán tìm kiếm cục bộ (Local Search)
 
