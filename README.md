@@ -49,7 +49,9 @@ DFS, BFS, UCS, DLS, IDS.
     Nhược điểm: Thời gian và bộ nhớ tiêu tốn lớn nếu có nhiều trạng thái có chi phí tương đương.
   
     2.2.4. DLS (Depth Limit Search)
-  
+    
+  ![DLS](https://github.com/user-attachments/assets/bf60ad5d-d0bf-4020-a725-952ab33c3af3)
+
     Sử dụng thuật toán DFS để tìm kiếm nhưng có giới hạn độ sâu
     Ưu điểm: Tránh được vòng lặp vô hạn của DFS, giảm bớt không gian tìm kiếm.
     Nhược điểm: Không hoàn chỉnh nếu giới hạn nhỏ hơn độ sâu lời giải.
