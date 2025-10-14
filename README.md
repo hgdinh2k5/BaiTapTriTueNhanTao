@@ -1,6 +1,8 @@
 Báo cáo đồ án cá nhân trí tuệ nhân tạo
 Đề tài: Giải bài toán đặt 8 quân xe lên bàn cờ với điều kiện chúng không ăn lẫn nhau bằng các thuật toán tìm kiếm
+
 Giảng viên hướng dẫn: Phan Thị Huyền Trang 
+
 Sinh viên thực hiện: Huỳnh Gia Định
 Mã sinh viên: 23110092
 1. Mục Tiêu
