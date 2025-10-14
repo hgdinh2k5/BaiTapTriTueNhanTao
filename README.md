@@ -16,7 +16,10 @@ Mục tiêu của đề tài:
   - Không gian trạng thái (State Space): Tất cả các trạng thái có thể sinh ra trong quá trình đặt quân.
   - Lời giải (Solution): Một ma trận 8x8 biểu diễn vị trí của 8 quân xe thỏa mãn điều kiện bài toán.
 
-  2.2. Nhóm thuật toán tìm kiếm không có thông tin (Uninformed Search)
+  2.2. Nhóm thuật toán tìm kiếm không có thông tin (Uninformed Search):
+
+  Nhóm này bao gồm các thuật toán không sử dụng thông tin bổ sung về trạng thái đích mà chỉ dựa trên cấu trúc tìm kiếm. Các thuật toán được cài đặt gồm:
+DFS, BFS, UCS, DLS, IDS.
     
     2.2.1. DFS(Depth-First Search):
   
@@ -64,6 +67,7 @@ Mục tiêu của đề tài:
     - Biểu đồ tổng hợp hiệu quả: 1/(Step x Time)
  
   2.3. Nhóm thuật toán tìm kiếm có thông tin
+Các thuật toán này sử dụng hàm heuristic để ước lượng khoảng cách hoặc chi phí từ trạng thái hiện tại đến trạng thái đích.
   
       2.3.1 Greedy Search
   
@@ -88,6 +92,8 @@ Mục tiêu của đề tài:
     - Biểu đồ tổng hợp hiệu quả: 1/(Step x Time)
       
   2.4 Nhóm thuật toán tìm kiếm cục bộ (Local Search)
+
+  Tập trung tìm kiếm trong một không gian trạng thái cố định, chỉ di chuyển sang trạng thái lân cận tốt hơn.
   
       2.4.1. Hill Climbing
 ![HIllClimbing](https://github.com/user-attachments/assets/2f164bec-b01e-4972-82a9-96222b4047c5)
@@ -126,9 +132,12 @@ Mục tiêu của đề tài:
       - Biểu đồ hiệu quả 1/(Step × Time).
   
   2.5. Nhóm thuật toán tìm kiếm trong môi trường phức tạp (Complex Search)
+
+  Nhóm này xử lý các bài toán trong môi trường không chắc chắn hoặc quan sát một
   
       2.5.1 AND-OR Search
-  
+  ![Andorsearch](https://github.com/user-attachments/assets/8d83908e-4508-47d4-9fea-e57a18bc9f4e)
+
         Phân biệt giữa nút lựa chọn (OR) và nút bắt buộc (AND) trong quá trình tìm kiếm.
         Ưu điểm: Mô phỏng tốt các bài toán có điều kiện phức tạp.
         Nhược điểm: Không thích hợp với không gian tìm kiếm lớn.
@@ -143,7 +152,8 @@ Mục tiêu của đề tài:
   
       2.5.3. Partial Observation Search
 
-![Partial_observation](https://github.com/user-attachments/assets/f64cc614-1768-4818-9228-072251dc0c70)
+
+![Partial_ob](https://github.com/user-attachments/assets/d07b75cb-8cfd-4dfe-adb7-0df2646ecadf)
 
         Tìm kiếm dựa trên thông tin quan sát được một phần.
         Ưu điểm: Kết hợp giữa tìm kiếm và suy luận.
@@ -155,6 +165,7 @@ Mục tiêu của đề tài:
       - Biểu đồ số bước thực hiện.
       - Biểu đồ hiệu quả theo công thức 1 / (Step × Time).
   2.6. Nhóm thuật toán tìm kiếm dựa trên ràng buộc
+Những thuật toán này tìm kiếm lời giải thỏa mãn các ràng buộc nhất định, chẳng hạn trong bài toán 8 quân xe là điều kiện không hai xe nào cùng hàng hoặc cùng cột.
   
       2.6.1. Backtracking Search
   
