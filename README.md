@@ -234,11 +234,20 @@ Những thuật toán này tìm kiếm lời giải thỏa mãn các ràng buộ
   
       2.6.4. So sánh hiệu suất
   
-        - Biểu đồ thời gian thực thi.
-      - Biểu đồ số bước thực hiện.
-      - Biểu đồ hiệu quả theo công thức 1 / (Step × Time).
+      - Biểu đồ thời gian thực thi.
+
+<img width="854" height="514" alt="image" src="https://github.com/user-attachments/assets/34772641-be5a-4649-874f-62d9e586776b" />
 
       
+      - Biểu đồ số bước thực hiện.
+
+<img width="850" height="538" alt="image" src="https://github.com/user-attachments/assets/584d71a6-f8cf-48e4-8b1d-fa0c55acc857" />
+
+
+      - Biểu đồ hiệu quả theo công thức 1 / (Step × Time).
+
+<img width="870" height="534" alt="image" src="https://github.com/user-attachments/assets/d6453576-b742-4066-a8b0-1d65c81af6e9" />
+
       
       
       
