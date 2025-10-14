@@ -25,7 +25,7 @@ DFS, BFS, UCS, DLS, IDS.
     
     2.2.1. DFS(Depth-First Search):
   
-![DFS](https://github.com/user-attachments/assets/d0c536f7-46eb-4ec5-af9a-f3f52590ea08)
+![DFS](image/DFS.gif)
 
 
     Sử dụng ngăn xếp (Stack) để lưu trữ các trạng thái, thuật toán sẽ mở rộng nhánh sâu nhất trước khi quay lại.
