@@ -20,21 +20,21 @@ Mục tiêu của đề tài:
     
     2.2.1. DFS(Depth-First Search):
   
-![DFS](https://github.com/user-attachments/assets/26bf468d-35f3-42cb-8279-cf5032630993)
+
 
     Sử dụng ngăn xếp (Stack) để lưu trữ các trạng thái, thuật toán sẽ mở rộng nhánh sâu nhất trước khi quay lại.
     Ưu điểm: Tiết kiệm bộ nhớ, có thể tìm lời giải nhanh nếu đích ở độ sâu nhỏ.
     Nhược điểm: Dễ rơi vào vòng lặp vô hạn.
   
     2.2.2. BFS (Breadth-First Search):
-  ![BFS](https://github.com/user-attachments/assets/6298ec7f-4122-4520-ac0a-09b055e23ff5)
+
   
     Dựa trên hàng đợi (Queue), BFS mở rộng tất cả các nút ở cùng một mức trước khi sang mức kế tiếp.
     Ưu điểm: Đảm bảo tìm được lời giải nếu có, và lời giải là ngắn nhất.
     Nhược điểm: Tiêu tốn bộ nhớ lớn do phải lưu tất cả các nút trong cùng một tầng.
 
     2.2.3. UCS (Uniform Cost Search):
-  ![UCS](https://github.com/user-attachments/assets/34f32e0f-03b7-498c-a408-3fdc4fff8e86)
+
 
     Sử dụng hàng đợi ưu tiên (Priority Queue) để chọn nút có chi phí thấp nhất để mở rộng.
     Ưu điểm: Đảm bảo tìm được đường đi có tổng chi phí nhỏ nhất.
@@ -60,14 +60,14 @@ Mục tiêu của đề tài:
   2.3. Nhóm thuật toán tìm kiếm có thông tin
   
       2.3.1 Greedy Search
-  ![Greedy](https://github.com/user-attachments/assets/f86624da-4596-4d33-9ce0-9e43f2139458)
+  
 
       Lựa chọn mở rộng trạng thái có giá trị heuristic tốt nhất.
       Ưu điểm: tìm được lời giải nhanh chóng
       Nhược điểm: hiệu suất thuật toán phụ thuộc nhiều vào các hàm tính toán chi phí
   
       2.3.2. A* Search
-  ![Asao](https://github.com/user-attachments/assets/7dc4cdfa-c18e-4e98-9e78-ea3e81de524d)
+ 
 
       Kết hợp chi phí thực tế g(n) và ước lượng h(n) theo công thức: f(n) = g(n) + h(n).
       Ưu điểm: Đảm bảo tính tối ưu và đầy đủ nếu h(n) là heuristic chấp nhận được.
@@ -82,14 +82,14 @@ Mục tiêu của đề tài:
   2.4 Nhóm thuật toán tìm kiếm cục bộ (Local Search)
   
       2.4.1. Hill Climbing
-  ![HIllClimbing](https://github.com/user-attachments/assets/122cf258-8178-40f6-893e-f9cec4f2dc47)
+
 
       Chọn trạng thái lân cận tốt nhất để tiến tới.
       Ưu điểm: Đơn giản, sử dụng ít bộ nhớ.
       Nhược điểm: Dễ dừng ở cực trị địa phương.
   
       2.4.2. Genetic Algorithm
-  ![Genetic](https://github.com/user-attachments/assets/1ec21649-130c-4b53-b14d-13244471364a)
+  
 
       Dựa trên các cơ chế chọn lọc – lai ghép – đột biến để tạo ra thế hệ trạng thái mới.
       Ưu điểm: Tìm kiếm hiệu quả trong không gian lớn.
@@ -122,14 +122,14 @@ Mục tiêu của đề tài:
         Nhược điểm: Không thích hợp với không gian tìm kiếm lớn.
   
       2.5.2 Belief State Search
-  ![SensorLess](https://github.com/user-attachments/assets/e7a8ea31-2de6-4adb-8150-2730bafb1357)
+
 
         Áp dụng khi không quan sát được trạng thái thật, chỉ biết tập hợp các khả năng có thể xảy ra.
         Ưu điểm: Giải quyết được bài toán trong môi trường không chắc chắn.
         Nhược điểm: Dễ bị rơi vào trạng thái suy luận sai hoặc cực trị địa phương.
   
       2.5.3. Partial Observation Search
-  ![Partial_observation](https://github.com/user-attachments/assets/8751ca02-80cf-4506-8cab-b5eb239aac72)
+
 
         Tìm kiếm dựa trên thông tin quan sát được một phần.
         Ưu điểm: Kết hợp giữa tìm kiếm và suy luận.
@@ -143,22 +143,21 @@ Mục tiêu của đề tài:
   2.6. Nhóm thuật toán tìm kiếm dựa trên ràng buộc
   
       2.6.1. Backtracking Search
-  ![Backtrack](https://github.com/user-attachments/assets/db401800-f722-4bc5-bf78-f1de0e115202)
+  
 
         Thực hiện tìm kiếm theo chiều sâu, quay lui khi gặp mâu thuẫn.
         Ưu điểm: Dễ hiểu, dễ triển khai, tiết kiệm bộ nhớ.
         Nhược điểm: Tốc độ chậm, không tận dụng được thông tin ràng buộc sớm.
   
       2.6.2. Forward Checking
-  ![Forward](https://github.com/user-attachments/assets/7aeb5e64-4c55-4565-91d5-fd66e3295136)
+  
 
         Sau mỗi lần gán giá trị, loại bỏ trước các giá trị không hợp lệ cho các biến còn lại.
         Ưu điểm: Phát hiện xung đột sớm, giảm số lần quay lui.
         Nhược điểm: Tốn bộ nhớ hơn Backtracking.
   
       2.6.3. Constraint Propagation (AC-3)
-  ![AC3](https://github.com/user-attachments/assets/f8815ec6-5214-489c-aa5a-a766dffb0570)
-
+ 
         Liên tục loại bỏ các giá trị không hợp lệ trong miền giá trị (domain) cho đến khi các ràng buộc nhất quán.
         Ưu điểm: Loại trừ được nhiều giá trị sai, giảm số lần tìm kiếm lại.
         Nhược điểm: Tốn bộ nhớ và không giải quyết được mọi mâu thuẫn phức tạp.
