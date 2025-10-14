@@ -35,7 +35,7 @@ DFS, BFS, UCS, DLS, IDS.
     
   
     2.2.2. BFS (Breadth-First Search):
-![BFS](https://github.com/user-attachments/assets/ebfc8b3a-0280-4229-841c-b7c53b714764)
+![BFS](image/BFS.gif)
 
   
     Dựa trên hàng đợi (Queue), BFS mở rộng tất cả các nút ở cùng một mức trước khi sang mức kế tiếp.
@@ -55,14 +55,14 @@ DFS, BFS, UCS, DLS, IDS.
   
     2.2.4. DLS (Depth Limit Search)
     
-  ![DLS](https://github.com/user-attachments/assets/bf60ad5d-d0bf-4020-a725-952ab33c3af3)
+  ![DLS](image/DLS.gif)
 
     Sử dụng thuật toán DFS để tìm kiếm nhưng có giới hạn độ sâu
     Ưu điểm: Tránh được vòng lặp vô hạn của DFS, giảm bớt không gian tìm kiếm.
     Nhược điểm: Không hoàn chỉnh nếu giới hạn nhỏ hơn độ sâu lời giải.
   
     2.2.5. IDS(Iterative Deepening Search)
-  ![IDS](https://github.com/user-attachments/assets/ffc62d71-bb9e-4b8b-b6b3-570c94b05521)
+  ![IDS](image/IDS.gif)
 
     Kết hợp ưu điểm của DFS và BFS, thuật toán lặp lại quá trình DLS với giới hạn độ sâu tăng dần (limit = 0, 1, 2, …).
     Ưu điểm: Tiết kiệm bộ nhớ như DFS nhưng đảm bảo tìm thấy lời giải.
@@ -88,7 +88,7 @@ DFS, BFS, UCS, DLS, IDS.
   
       2.3.1 Greedy Search
   
-![Greedy](https://github.com/user-attachments/assets/33398b7f-e948-4557-b33a-128c9e5b90cc)
+![Greedy](image/Greedy.gif)
 
       Lựa chọn mở rộng trạng thái có giá trị heuristic tốt nhất.
       Ưu điểm: tìm được lời giải nhanh chóng
@@ -96,7 +96,7 @@ DFS, BFS, UCS, DLS, IDS.
   
       2.3.2. A* Search
  
-![Asao](https://github.com/user-attachments/assets/269a68a3-a9cb-4b69-aa8e-6713ab9f2fa5)
+![Asao](image/Asao.gif)
 
       Kết hợp chi phí thực tế g(n) và ước lượng h(n) theo công thức: f(n) = g(n) + h(n).
       Ưu điểm: Đảm bảo tính tối ưu và đầy đủ nếu h(n) là heuristic chấp nhận được.
@@ -126,7 +126,7 @@ DFS, BFS, UCS, DLS, IDS.
   Tập trung tìm kiếm trong một không gian trạng thái cố định, chỉ di chuyển sang trạng thái lân cận tốt hơn.
   
       2.4.1. Hill Climbing
-![HIllClimbing](https://github.com/user-attachments/assets/2f164bec-b01e-4972-82a9-96222b4047c5)
+![HIllClimbing](image/HIllClimbing.gif)
 
 
       Chọn trạng thái lân cận tốt nhất để tiến tới.
@@ -135,7 +135,7 @@ DFS, BFS, UCS, DLS, IDS.
   
       2.4.2. Genetic Algorithm
 
- ![Genetic_new](https://github.com/user-attachments/assets/14fd6802-1983-46da-b64f-e10fc0e6d29c)
+ ![Genetic_new](image/Genetic_new.gif)
 
 
       Dựa trên các cơ chế chọn lọc – lai ghép – đột biến để tạo ra thế hệ trạng thái mới.
@@ -143,14 +143,14 @@ DFS, BFS, UCS, DLS, IDS.
       Nhược điểm: Thiết kế hàm thích nghi và các toán tử lai ghép phức tạp
   
       2.4.3. Simulated Annealing
-  ![Simulate](https://github.com/user-attachments/assets/b688ff56-8f62-4353-8afa-1a5bcf412714)
+  ![Simulate](image/Simulate.gif)
 
       Lấy cảm hứng từ quá trình nung chảy kim loại và làm nguội dần, cho phép di chuyển đến trạng thái xấu hơn với xác suất giảm dần theo thời gian.
       Ưu điểm: Có thể thoát khỏi cực trị địa phương.
       Nhược điểm: Cần chọn hàm xác suất và tốc độ giảm nhiệt độ hợp lý.
   
       2.4.4 Beam Search
-  ![Beam_Search_1](https://github.com/user-attachments/assets/56035728-55de-4afa-9848-5189abf4c915)
+  ![Beam_Search_1](image/Beam_Search_1.gif)
 
       Giữ lại K trạng thái tốt nhất ở mỗi mức thay vì toàn bộ như BFS.
       Ưu điểm: Giảm đáng kể bộ nhớ cần dùng.
@@ -179,7 +179,7 @@ DFS, BFS, UCS, DLS, IDS.
   Nhóm này xử lý các bài toán trong môi trường không chắc chắn hoặc quan sát một
   
       2.5.1 AND-OR Search
-  ![Andorsearch](https://github.com/user-attachments/assets/8d83908e-4508-47d4-9fea-e57a18bc9f4e)
+  ![Andorsearch](image/Andorsearch.gif)
 
         Phân biệt giữa nút lựa chọn (OR) và nút bắt buộc (AND) trong quá trình tìm kiếm.
         Ưu điểm: Mô phỏng tốt các bài toán có điều kiện phức tạp.
@@ -187,7 +187,7 @@ DFS, BFS, UCS, DLS, IDS.
   
       2.5.2 Belief State Search
 
-![SensorLess](https://github.com/user-attachments/assets/66f41e11-4da2-4fdf-b729-9daa256a8c57)
+![SensorLess](image/SensorLess.gif)
 
         Áp dụng khi không quan sát được trạng thái thật, chỉ biết tập hợp các khả năng có thể xảy ra.
         Ưu điểm: Giải quyết được bài toán trong môi trường không chắc chắn.
@@ -196,7 +196,7 @@ DFS, BFS, UCS, DLS, IDS.
       2.5.3. Partial Observation Search
 
 
-![Partial_ob](https://github.com/user-attachments/assets/d07b75cb-8cfd-4dfe-adb7-0df2646ecadf)
+![Partial_ob](image/Partial_ob.gif)
 
         Tìm kiếm dựa trên thông tin quan sát được một phần.
         Ưu điểm: Kết hợp giữa tìm kiếm và suy luận.
@@ -225,14 +225,14 @@ Những thuật toán này tìm kiếm lời giải thỏa mãn các ràng buộ
   
       2.6.1. Backtracking Search
   
-![Backtrack](https://github.com/user-attachments/assets/f8ad945f-ad14-4eee-9c3a-fdef581fd00c)
+![Backtrack](image/Backtrack.gif)
 
         Thực hiện tìm kiếm theo chiều sâu, quay lui khi gặp mâu thuẫn.
         Ưu điểm: Dễ hiểu, dễ triển khai, tiết kiệm bộ nhớ.
         Nhược điểm: Tốc độ chậm, không tận dụng được thông tin ràng buộc sớm.
   
       2.6.2. Forward Checking
-  ![Forward](https://github.com/user-attachments/assets/41551a7e-726b-4ccc-8ff8-93d0ad5b5c91)
+  ![Forward](image/Forward.gif)
 
 
         Sau mỗi lần gán giá trị, loại bỏ trước các giá trị không hợp lệ cho các biến còn lại.
@@ -241,7 +241,7 @@ Những thuật toán này tìm kiếm lời giải thỏa mãn các ràng buộ
   
       2.6.3. Constraint Propagation (AC-3)
       
- ![AC3](https://github.com/user-attachments/assets/fc6eda82-f0c7-4868-963e-6960926678c3)
+ ![AC3](image/AC3.gif)
 
         Liên tục loại bỏ các giá trị không hợp lệ trong miền giá trị (domain) cho đến khi các ràng buộc nhất quán.
         Ưu điểm: Loại trừ được nhiều giá trị sai, giảm số lần tìm kiếm lại.
