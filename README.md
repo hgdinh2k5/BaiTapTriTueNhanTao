@@ -134,8 +134,9 @@ DFS, BFS, UCS, DLS, IDS.
       Nhược điểm: Dễ dừng ở cực trị địa phương.
   
       2.4.2. Genetic Algorithm
-  
-![Genetic](https://github.com/user-attachments/assets/d8705df8-bd89-4a66-b663-f35ba28edcd5)
+
+ ![Genetic_new](https://github.com/user-attachments/assets/14fd6802-1983-46da-b64f-e10fc0e6d29c)
+
 
       Dựa trên các cơ chế chọn lọc – lai ghép – đột biến để tạo ra thế hệ trạng thái mới.
       Ưu điểm: Tìm kiếm hiệu quả trong không gian lớn.
