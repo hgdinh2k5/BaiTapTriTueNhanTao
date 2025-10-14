@@ -190,8 +190,20 @@ DFS, BFS, UCS, DLS, IDS.
       2.5.4. So sánh hiệu suất
   
       - Biểu đồ thời gian thực thi.
+
+<img width="845" height="517" alt="image" src="https://github.com/user-attachments/assets/d718e657-511a-4018-98cb-0cd57f71365f" />
+
+
       - Biểu đồ số bước thực hiện.
+
+<img width="913" height="537" alt="image" src="https://github.com/user-attachments/assets/155ab3d9-de26-48f6-817a-23f5fad1d9d9" />
+
+
       - Biểu đồ hiệu quả theo công thức 1 / (Step × Time).
+
+<img width="860" height="537" alt="image" src="https://github.com/user-attachments/assets/01573f06-20e1-490d-afcf-4172596b9778" />
+
+    
   2.6. Nhóm thuật toán tìm kiếm dựa trên ràng buộc
 
 Những thuật toán này tìm kiếm lời giải thỏa mãn các ràng buộc nhất định, chẳng hạn trong bài toán 8 quân xe là điều kiện không hai xe nào cùng hàng hoặc cùng cột.
