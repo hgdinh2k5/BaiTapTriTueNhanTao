@@ -159,8 +159,20 @@ DFS, BFS, UCS, DLS, IDS.
       2.4.5. So sánh hiệu suất
   
       - Biểu đồ thời gian thực thi.
+
+<img width="867" height="516" alt="image" src="https://github.com/user-attachments/assets/fbc96cf5-c8bd-4538-b443-7cfb5a37f520" />
+
+
       - Biểu đồ số bước thực hiện.
+
+<img width="871" height="536" alt="image" src="https://github.com/user-attachments/assets/df35d954-7a24-45f7-936e-3c1f5d118654" />
+
+
       - Biểu đồ hiệu quả 1/(Step × Time).
+
+<img width="889" height="536" alt="image" src="https://github.com/user-attachments/assets/6a23a5ee-4c00-4a9d-bcc2-928c9199bcee" />
+
+
   
   2.5. Nhóm thuật toán tìm kiếm trong môi trường phức tạp (Complex Search)
 
