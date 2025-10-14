@@ -106,17 +106,16 @@ DFS, BFS, UCS, DLS, IDS.
   
     - Biểu đồ thời gian thực thi
 
-<img width="1067" height="625" alt="Screenshot 2025-10-14 170608" src="https://github.com/user-attachments/assets/0026309d-910b-441a-abac-e5d08231b024" />
+![Time](image/time_2.png)
 
     
     - Biểu đò số bước tìm kiếm
 
-<img width="976" height="630" alt="Screenshot 2025-10-14 170632" src="https://github.com/user-attachments/assets/04a1caf6-5e2c-48f8-90a6-dd055d0871ac" />
-
+![step](image/step_2.png)
 
     - Biểu đồ tổng hợp hiệu quả: 1/(Step x Time)
 
-<img width="1000" height="632" alt="Screenshot 2025-10-14 170705" src="https://github.com/user-attachments/assets/4b69fbd4-d36d-4232-b205-da7c9b12be37" />
+![per](image/per_2.png)
 
   
       
@@ -160,18 +159,17 @@ DFS, BFS, UCS, DLS, IDS.
   
       - Biểu đồ thời gian thực thi.
 
-<img width="867" height="516" alt="image" src="https://github.com/user-attachments/assets/fbc96cf5-c8bd-4538-b443-7cfb5a37f520" />
+![Time](image/time_3.png)
 
 
       - Biểu đồ số bước thực hiện.
 
-<img width="871" height="536" alt="image" src="https://github.com/user-attachments/assets/df35d954-7a24-45f7-936e-3c1f5d118654" />
+![step](image/step_3.png)
 
 
       - Biểu đồ hiệu quả 1/(Step × Time).
 
-<img width="889" height="536" alt="image" src="https://github.com/user-attachments/assets/6a23a5ee-4c00-4a9d-bcc2-928c9199bcee" />
-
+![per](image/per_3.png)
 
   
   2.5. Nhóm thuật toán tìm kiếm trong môi trường phức tạp (Complex Search)
@@ -206,17 +204,18 @@ DFS, BFS, UCS, DLS, IDS.
   
       - Biểu đồ thời gian thực thi.
 
-<img width="845" height="517" alt="image" src="https://github.com/user-attachments/assets/d718e657-511a-4018-98cb-0cd57f71365f" />
+![Time](image/time_4.png)
 
 
       - Biểu đồ số bước thực hiện.
 
-<img width="913" height="537" alt="image" src="https://github.com/user-attachments/assets/155ab3d9-de26-48f6-817a-23f5fad1d9d9" />
+![step](image/step_4.png)
+
 
 
       - Biểu đồ hiệu quả theo công thức 1 / (Step × Time).
 
-<img width="860" height="537" alt="image" src="https://github.com/user-attachments/assets/01573f06-20e1-490d-afcf-4172596b9778" />
+![per](image/per_4.png)
 
     
   2.6. Nhóm thuật toán tìm kiếm dựa trên ràng buộc
@@ -251,17 +250,18 @@ Những thuật toán này tìm kiếm lời giải thỏa mãn các ràng buộ
   
       - Biểu đồ thời gian thực thi.
 
-<img width="854" height="514" alt="image" src="https://github.com/user-attachments/assets/34772641-be5a-4649-874f-62d9e586776b" />
+![Time](image/time_5.png)
 
       
       - Biểu đồ số bước thực hiện.
 
-<img width="850" height="538" alt="image" src="https://github.com/user-attachments/assets/584d71a6-f8cf-48e4-8b1d-fa0c55acc857" />
+![step](image/step_5.png)
+
 
 
       - Biểu đồ hiệu quả theo công thức 1 / (Step × Time).
 
-<img width="870" height="534" alt="image" src="https://github.com/user-attachments/assets/d6453576-b742-4066-a8b0-1d65c81af6e9" />
+![per](image/per_5.png)
 
       
       
