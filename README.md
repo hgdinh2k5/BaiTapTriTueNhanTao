@@ -42,7 +42,11 @@ DFS, BFS, UCS, DLS, IDS.
 
     2.2.3. UCS (Uniform Cost Search):
 
-![UCS](https://github.com/user-attachments/assets/38eac47e-b9a7-43ca-91fe-7198bcce27ef)
+
+
+https://github.com/user-attachments/assets/3ff9ea6f-97cd-486a-b14d-8be342215d00
+
+
 
     Sử dụng hàng đợi ưu tiên (Priority Queue) để chọn nút có chi phí thấp nhất để mở rộng.
     Ưu điểm: Đảm bảo tìm được đường đi có tổng chi phí nhỏ nhất.
