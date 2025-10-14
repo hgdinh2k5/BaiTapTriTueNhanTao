@@ -26,6 +26,8 @@ Mục tiêu của đề tài:
     Sử dụng ngăn xếp (Stack) để lưu trữ các trạng thái, thuật toán sẽ mở rộng nhánh sâu nhất trước khi quay lại.
     Ưu điểm: Tiết kiệm bộ nhớ, có thể tìm lời giải nhanh nếu đích ở độ sâu nhỏ.
     Nhược điểm: Dễ rơi vào vòng lặp vô hạn.
+
+    
   
     2.2.2. BFS (Breadth-First Search):
 ![BFS](https://github.com/user-attachments/assets/ebfc8b3a-0280-4229-841c-b7c53b714764)
