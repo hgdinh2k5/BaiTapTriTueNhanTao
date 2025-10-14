@@ -28,6 +28,7 @@ Mục tiêu của đề tài:
     Nhược điểm: Dễ rơi vào vòng lặp vô hạn.
   
     2.2.2. BFS (Breadth-First Search):
+![BFS](https://github.com/user-attachments/assets/ebfc8b3a-0280-4229-841c-b7c53b714764)
 
   
     Dựa trên hàng đợi (Queue), BFS mở rộng tất cả các nút ở cùng một mức trước khi sang mức kế tiếp.
@@ -36,6 +37,7 @@ Mục tiêu của đề tài:
 
     2.2.3. UCS (Uniform Cost Search):
 
+![UCS](https://github.com/user-attachments/assets/38eac47e-b9a7-43ca-91fe-7198bcce27ef)
 
     Sử dụng hàng đợi ưu tiên (Priority Queue) để chọn nút có chi phí thấp nhất để mở rộng.
     Ưu điểm: Đảm bảo tìm được đường đi có tổng chi phí nhỏ nhất.
@@ -48,7 +50,8 @@ Mục tiêu của đề tài:
     Nhược điểm: Không hoàn chỉnh nếu giới hạn nhỏ hơn độ sâu lời giải.
   
     2.2.5. IDS(Iterative Deepening Search)
-  
+  ![IDS](https://github.com/user-attachments/assets/ffc62d71-bb9e-4b8b-b6b3-570c94b05521)
+
     Kết hợp ưu điểm của DFS và BFS, thuật toán lặp lại quá trình DLS với giới hạn độ sâu tăng dần (limit = 0, 1, 2, …).
     Ưu điểm: Tiết kiệm bộ nhớ như DFS nhưng đảm bảo tìm thấy lời giải.
     Nhược điểm: Tốn thời gian do phải lặp lại nhiều cấp độ.
@@ -62,6 +65,7 @@ Mục tiêu của đề tài:
   
       2.3.1 Greedy Search
   
+![Greedy](https://github.com/user-attachments/assets/33398b7f-e948-4557-b33a-128c9e5b90cc)
 
       Lựa chọn mở rộng trạng thái có giá trị heuristic tốt nhất.
       Ưu điểm: tìm được lời giải nhanh chóng
@@ -69,6 +73,7 @@ Mục tiêu của đề tài:
   
       2.3.2. A* Search
  
+![Asao](https://github.com/user-attachments/assets/269a68a3-a9cb-4b69-aa8e-6713ab9f2fa5)
 
       Kết hợp chi phí thực tế g(n) và ước lượng h(n) theo công thức: f(n) = g(n) + h(n).
       Ưu điểm: Đảm bảo tính tối ưu và đầy đủ nếu h(n) là heuristic chấp nhận được.
@@ -83,6 +88,7 @@ Mục tiêu của đề tài:
   2.4 Nhóm thuật toán tìm kiếm cục bộ (Local Search)
   
       2.4.1. Hill Climbing
+![HIllClimbing](https://github.com/user-attachments/assets/2f164bec-b01e-4972-82a9-96222b4047c5)
 
 
       Chọn trạng thái lân cận tốt nhất để tiến tới.
@@ -91,19 +97,22 @@ Mục tiêu của đề tài:
   
       2.4.2. Genetic Algorithm
   
+![Genetic](https://github.com/user-attachments/assets/d8705df8-bd89-4a66-b663-f35ba28edcd5)
 
       Dựa trên các cơ chế chọn lọc – lai ghép – đột biến để tạo ra thế hệ trạng thái mới.
       Ưu điểm: Tìm kiếm hiệu quả trong không gian lớn.
       Nhược điểm: Thiết kế hàm thích nghi và các toán tử lai ghép phức tạp
   
       2.4.3. Simulated Annealing
-  
+  ![Simulate](https://github.com/user-attachments/assets/b688ff56-8f62-4353-8afa-1a5bcf412714)
+
       Lấy cảm hứng từ quá trình nung chảy kim loại và làm nguội dần, cho phép di chuyển đến trạng thái xấu hơn với xác suất giảm dần theo thời gian.
       Ưu điểm: Có thể thoát khỏi cực trị địa phương.
       Nhược điểm: Cần chọn hàm xác suất và tốc độ giảm nhiệt độ hợp lý.
   
       2.4.4 Beam Search
-  
+  ![Beam_Search_1](https://github.com/user-attachments/assets/56035728-55de-4afa-9848-5189abf4c915)
+
       Giữ lại K trạng thái tốt nhất ở mỗi mức thay vì toàn bộ như BFS.
       Ưu điểm: Giảm đáng kể bộ nhớ cần dùng.
       Nhược điểm: Có thể bỏ qua lời giải tối ưu.
@@ -124,6 +133,7 @@ Mục tiêu của đề tài:
   
       2.5.2 Belief State Search
 
+![SensorLess](https://github.com/user-attachments/assets/66f41e11-4da2-4fdf-b729-9daa256a8c57)
 
         Áp dụng khi không quan sát được trạng thái thật, chỉ biết tập hợp các khả năng có thể xảy ra.
         Ưu điểm: Giải quyết được bài toán trong môi trường không chắc chắn.
@@ -131,6 +141,7 @@ Mục tiêu của đề tài:
   
       2.5.3. Partial Observation Search
 
+![Partial_observation](https://github.com/user-attachments/assets/f64cc614-1768-4818-9228-072251dc0c70)
 
         Tìm kiếm dựa trên thông tin quan sát được một phần.
         Ưu điểm: Kết hợp giữa tìm kiếm và suy luận.
@@ -145,20 +156,24 @@ Mục tiêu của đề tài:
   
       2.6.1. Backtracking Search
   
+![Backtrack](https://github.com/user-attachments/assets/f8ad945f-ad14-4eee-9c3a-fdef581fd00c)
 
         Thực hiện tìm kiếm theo chiều sâu, quay lui khi gặp mâu thuẫn.
         Ưu điểm: Dễ hiểu, dễ triển khai, tiết kiệm bộ nhớ.
         Nhược điểm: Tốc độ chậm, không tận dụng được thông tin ràng buộc sớm.
   
       2.6.2. Forward Checking
-  
+  ![Forward](https://github.com/user-attachments/assets/41551a7e-726b-4ccc-8ff8-93d0ad5b5c91)
+
 
         Sau mỗi lần gán giá trị, loại bỏ trước các giá trị không hợp lệ cho các biến còn lại.
         Ưu điểm: Phát hiện xung đột sớm, giảm số lần quay lui.
         Nhược điểm: Tốn bộ nhớ hơn Backtracking.
   
       2.6.3. Constraint Propagation (AC-3)
- 
+      
+ ![AC3](https://github.com/user-attachments/assets/fc6eda82-f0c7-4868-963e-6960926678c3)
+
         Liên tục loại bỏ các giá trị không hợp lệ trong miền giá trị (domain) cho đến khi các ràng buộc nhất quán.
         Ưu điểm: Loại trừ được nhiều giá trị sai, giảm số lần tìm kiếm lại.
         Nhược điểm: Tốn bộ nhớ và không giải quyết được mọi mâu thuẫn phức tạp.
