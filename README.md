@@ -45,7 +45,7 @@ DFS, BFS, UCS, DLS, IDS.
     2.2.3. UCS (Uniform Cost Search):
 
 
-![UCS_moi](https://github.com/user-attachments/assets/8f97e883-3df1-498e-a660-4c9dc2bcf300)
+![UCS_moi](image/UCS_moi.gif)
 
 
 
