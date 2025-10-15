@@ -72,6 +72,7 @@ DFS, BFS, UCS, DLS, IDS.
     - Biểu đồ thời gian thực thi
     
 ![Time](image/time_1(1).png)
+
     - Biểu đò số bước tìm kiếm
 
 ![Step](image/step_1.png)
