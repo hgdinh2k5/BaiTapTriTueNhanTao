@@ -72,7 +72,7 @@ DFS, BFS, UCS, DLS, IDS.
     2.2.6 So sánh hiệu suất
     - Biểu đồ thời gian thực thi
     
-![Time](image/time_1 (1).png)
+![Time](image/time_1.png)
 
     - Biểu đò số bước tìm kiếm
 
