@@ -35,6 +35,7 @@ DFS, BFS, UCS, DLS, IDS.
     
   
     2.2.2. BFS (Breadth-First Search):
+    
 ![BFS](image/BFS.gif)
 
   
