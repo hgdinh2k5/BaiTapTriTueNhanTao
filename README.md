@@ -71,16 +71,14 @@ DFS, BFS, UCS, DLS, IDS.
     2.2.6 So sánh hiệu suất
     - Biểu đồ thời gian thực thi
     
-<img width="1033" height="627" alt="Screenshot 2025-10-14 165018" src="https://github.com/user-attachments/assets/5142d2ec-a82a-4628-b97b-96832a377b3a" />
-
+![Time](image/time_1.png)
     - Biểu đò số bước tìm kiếm
 
-<img width="1038" height="640" alt="Screenshot 2025-10-14 165145" src="https://github.com/user-attachments/assets/4353e2f5-ed2e-4513-be2f-ba24e1e97433" />
-
+![Step](image/step_1.png)
     
     
     - Biểu đồ tổng hợp hiệu quả: 1/(Step x Time)
- <img width="1038" height="667" alt="Screenshot 2025-10-14 165218" src="https://github.com/user-attachments/assets/b01780f4-1a78-4e6c-88a3-0ee9fce3e054" />
+ ![Per](image/per_1.png)
 
   2.3. Nhóm thuật toán tìm kiếm có thông tin
   
